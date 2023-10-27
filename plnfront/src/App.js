@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import ChatApp from './components/ChatApp';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <h1>Ia to Jur</h1>
+      <ChatApp/>
     </div>
   );
 }
