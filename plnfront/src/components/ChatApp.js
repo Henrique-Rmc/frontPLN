@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, Component } from "react";
 import "./style.css";
 
 function ChatApp() {
   const [message, setMessage] = useState("");
-  const [history, setHistory] = useState([]);
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
 
